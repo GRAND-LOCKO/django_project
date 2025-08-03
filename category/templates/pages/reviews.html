@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% block title %} Témoignage {% endblock %}
+{% block content %}
+{% load static %}
+
+          <section class="section-padding pb-0" id="reviews">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h2 class="text-center mb-lg-5 mb-4">Nos Patients</h2>
+
+                            <div class="owl-carousel reviews-carousel">
+
+                                <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+
+                                    <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Meilleur soutient</strong></p>
+
+                                    <p class="reviews-text w-100">J'ai l'impression d'être déjà guerri rien qu'en voyant la qualité du service, une très bonne clinique</p>
+
+                                    <img src="{% static 'images/reviews/beautiful-woman-face-portrait-brown-background.jpeg' %}" class="img-fluid reviews-image" alt="">
+
+                                    <figcaption class="ms-4">
+                                        <strong>Marie</strong>
+
+                                        <span class="text-muted">Patient</span>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+
+                                    <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Docteur s'occupe de tout le monde!</strong></p>
+
+                                    <p class="reviews-text w-100">Un grand merci au docteur pour son écoute et ses précieux conseils. Je me suis sentie en confiance du début à la fin. Professionnalisme au top </p>
+
+                                    <img src="{% static 'images/reviews/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg' %}" class="img-fluid reviews-image" alt="">
+
+                                    <figcaption class="ms-4">
+                                        <strong>Ben Walker</strong>
+
+                                        <span class="text-muted">Guerrie</span>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                    </div>
+
+                                    <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Bon services!</strong></p>
+
+                                    <p class="reviews-text w-100">Je suis vraiment satisfaite du service offert par cette pharmacie. 
+                                        L’accueil est chaleureux, les conseils sont clairs et personnalisés, et 
+                                        le personnel prend le temps d’expliquer chaque traitement avec beaucoup de professionnalisme. 
+                                        J’ai aussi pu bénéficier d’une consultation rapide avec une infirmière certifiée, ce qui m’a beaucoup aidé. 
+                                        C’est rassurant de savoir qu’on peut compter sur une équipe aussi compétente et à l’écoute. 
+                                        Je recommande vivement.</p>
+
+                                    <img src="{% static 'images/reviews/portrait-british-woman.jpeg' %}" class="img-fluid reviews-image" alt="">
+
+                                    <figcaption class="ms-4">
+                                        <strong>Laura Zono</strong>
+
+                                        <span class="text-muted">Nouveau Patient</span>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+
+                                    <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Meilleur Conseil</strong></p>
+
+                                    <p class="reviews-text w-100">Très bon service, rapide et professionnel. L’équipe est à l’écoute et m’a bien conseillée. Je reviendrai sans hésiter !</p>
+
+                                    <img src="{% static 'images/reviews/woman-wearing-mask-face-closeup-covid-19-green-background.jpeg' %}" class="img-fluid reviews-image" alt="">
+
+                                    <figcaption class="ms-4">
+                                        <strong>Rosey</strong>
+
+                                        <span class="text-muted">Presque Guerrie</span>
+                                    </figcaption>
+                                </figure>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+{% endblock %}
